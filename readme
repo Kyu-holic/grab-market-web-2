@@ -1,0 +1,30 @@
+1. npm install -g create-react-app 으로 리액트 설치
+
+2. create-react-app . 으로 시작 (git bash에서 할 것)
+
+3. public에 images 폴더 생성 및 이미지 넣기
+
+4. src에서 MainPage폴더를 만들고 main 페이지에서 사용되는 index.css 옮기기(혹은 작성)
+
+5. MainPage 폴더에 index.js를 생성하여 main페이지에 들어갈 내용들 작성 준비. 
+
+6. App.js 에서 MainPage Component 불러오기
+
+7. MainPage component에서 메인 페이지의 html코드들을 작성후 css 연결.
+
+8. Axios 연결
+
+9. MainPage의 return 부분에서 product-list 밑에 product-card 작성
+
+10. axios의 then을 통해 products 안에는 result안의 products 값이 들어있는데, 리액트에서는 useState를 사용하여 값을 넣는다.
+
+11. map함수를 이용하여 products의 길이만큼 반복하기
+
+12. setProducts를 하여 업데이트하기
+
+13. useEffect를 이용하여 네트워크 통신이 한번만 일어나게 하기
+
+14. products의 값이 map함수를 통하여 product 변수 안에 들어갔으므로
+    이미지, 상품 이름, 가격, 판매자를 product 값을 이용하여 넣는다.
+
+15. git 연결됨?
