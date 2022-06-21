@@ -79,3 +79,23 @@
     product가 null일 때 나오는 화면을 만들면 되는데 return은 함수를 종료 시키는 구문이기도 하기 때문에 아래 리턴이 실행되지 않음
     근데 product에 값이 들어가고 나면 if는 null이 아니기 때문에 아래 return이 실행
 
+35. product의 css 꾸미기
+
+36. main의 index.css에서 *과 header 관련 속성들을 app.css로 가져오기
+
+37. 로고 클릭했을 때 루트 페이지로 돌아올 수 있게 Link 태그사용하여 만들기
+
+37. npm install antd사용하여 ant desingn 설치
+
+38. antd 기본 css는 line heignt값이 있는데 이걸 리셋하기
+
+39. antd를 이용하여 헤더의 가장 오른쪽에 위치할 상품업로드 버튼 만들기
+
+40. npm install --save @ant-design/icons 이용하여 antd icon 설치
+
+41. downloadOutlined 아이콘을 넣기
+
+42. main의 index.js에서 Link로 사용하여 페이지 전환을 하던 것을 useHistory로 바꾸기
+
+43. App.js에서 react-router-dom의 훅 중 하나인 useHsitory를 불러오고 antd의 버튼을
+    클릭했을 때 uploadPage로 갈 수 있게 history.push 하기
