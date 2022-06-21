@@ -95,7 +95,9 @@
 
 41. downloadOutlined 아이콘을 넣기
 
-42. main의 index.js에서 Link로 사용하여 페이지 전환을 하던 것을 useHistory로 바꾸기
-
-43. App.js에서 react-router-dom의 훅 중 하나인 useHsitory를 불러오고 antd의 버튼을
+42. App.js에서 react-router-dom의 훅 중 하나인 useHsitory를 불러오고 antd의 버튼을
     클릭했을 때 uploadPage로 갈 수 있게 history.push 하기
+
+43. productUploadPage에서 antd의 Form을 이용하여 Form 란 작성
+    
+44. Form.Item에는 이미지와 텍스트 넣기
