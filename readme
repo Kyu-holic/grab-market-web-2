@@ -101,3 +101,29 @@
 43. productUploadPage에서 antd의 Form을 이용하여 Form 란 작성
     
 44. Form.Item에는 이미지와 텍스트 넣기
+
+45. server 구축해준 다음 여기로 다시 돌아와서 main의 axios 부분의 postman 주소를 지워주고 http://localhost:8080/products로 변경
+
+46. server로 가서 sequelite 생성 
+
+47. uploadPage의 index.js로 가서 axios를 http://localhost:8080/products/${id}로 바꾸기
+
+48. axios에서 setProduct에 result.data로 되어 있는데 server에서 findone을 통해
+    PRODUCTS 객체를 product로 받았으므로 result.data를 result.data.product로 바꾼다.
+
+49. 이 작업을 하면 main화면에 모든 이미지와 정보들이 들어가고 클릭하면 상세정보가 뜨는 것을 알 수 있다.
+
+50. 각 product의 생성날짜를 main화면에 보이게 하기 위해 main.js 수정
+
+51. 날짜는 npm install dayjs 를 설치하여 main.js에서 import dayjs from "dayjs"로 불러오기
+
+52. product.createdAt을 dayjs로 감싸준다.
+
+53. 업로드 시간을 현재로부터 업로드 시점으로 얻기 위해
+     import relativeTime from "dayjs/plugin/reletiveTime" 하기.
+
+54. 상단에 dayjs를 확장시켜주겠다는 의미의 dayjs.extend(relativeTime)을 넣는다.
+
+55. dayjs(product.createAt).fromNow()로 변경
+
+56. dayjs를 product-date classname을 준 다음 css 변경

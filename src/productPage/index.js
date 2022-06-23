@@ -9,10 +9,10 @@ function ProductPage() {
   useEffect(function () {
     axios
       .get(
-        `https://390df28b-adca-41b6-9e77-0290203f5398.mock.pstmn.io/products/${id}`
+        `http://localhost:8080/products/${id}`
       )
       .then(function (result) {
-        setProduct(result.data);
+        setProduct(result.data.product);
       })
       .catch(function (error) {
         console.error("에러 발생 : ", error);
